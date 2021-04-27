@@ -5,7 +5,7 @@ require('../config.php');
 
 if (strtolower($_SERVER['REQUEST_METHOD']) ==='get'){
     $sql = $pdo->query("SELECT * FROM notas");
-    if($sql->rowcount() > 0){
+    if($sql){
         $dados = $sql->fetchAll(PDO::FETCH_ASSOC);
         foreach ($dados as $item){
             $array['result'][]=[
