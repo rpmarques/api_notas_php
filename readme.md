@@ -13,7 +13,7 @@ Banco de dados (NOTAS)
 -- titulo
 -- mensagem
 
-Quais os enpoints
+Quais os endpoints
 - (GET) /api/notas       - /api/getall.php
 - (GET) /ap/nota/123     - /api/get.php?id=123
 - (POST) /api/nota       - /api/insert.php [titulo,mensagem]
